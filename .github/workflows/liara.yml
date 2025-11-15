@@ -1,6 +1,6 @@
 name: CD-Example
 on:
-  commit_comment:
+  push:
     branches:
       - main
 jobs:
